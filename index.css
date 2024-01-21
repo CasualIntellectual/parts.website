@@ -35,7 +35,7 @@ body {
 }
 
 #parts-table {
-    width: 50%;
+    width: 100%;
     table-layout: fixed;
     word-break: break-all;
     border-collapse: collapse;
