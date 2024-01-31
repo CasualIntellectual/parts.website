@@ -5,8 +5,19 @@
         <meta charset="utf-8" />
         <link rel="icon" href="favicon.png">
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     </head>
     <body>
+        <div class = "banner">
+            <ul class="pull-left nav--left">
+                <a href="index.html">
+                <img class = banner__logo src="image/banner_logo.png">
+                </a>
+            </ul>
+            <ul class="pull-right nav--right">
+                <li><a href="submit.html">SUBMIT</a></li>
+            </ul>
+        </div>
         <div id="offline-warning">
             <p><b>Warning:</b> You are offline. Cached data might not be up-to-date.</p>
         </div>
@@ -17,7 +28,7 @@
             <table id="parts-table">
                 <tr>
                     <th onclick="sortParts('value')">Part</th>
-                    <th onclick="sortParts('location')">Location</th>
+                    <th onclick="sortParts('location')">Storage Location (Deletethis)</th>
                     <th onclick="sortParts('description')">Description</th>
                     <th onclick="sortParts('footprint')">Footprint</th>
                     <th onclick="sortParts('tolerance')">Tolerance</th>
@@ -35,3 +46,4 @@
         <script src="main.js"></script>
     </body>
 </html>
+
